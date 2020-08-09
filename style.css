@@ -1,0 +1,99 @@
+:root {
+  --prymary-pink: hsl(322, 100%, 66%);
+  --pale-cyan: hsl(193, 100%, 96%);
+  --dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+  --headings: "Poppins", sans-serif;
+  --secondary-font: "Open sans", sans-serif;
+  --font-btn: 400;
+  --font-lbtn: 700;
+  --font-head: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--secondary-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings);
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+/* HEADER STYLING */
+.header {
+  background-image: url(images/bg-hero-mobile.svg);
+  width: 100%;
+  height: 120vh;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar img {
+  height: 19.5px;
+  width: 120px;
+  margin: 20px 15px;
+}
+.btn-primary {
+  text-align: center;
+  margin: 0 20px;
+  padding-top: 5px;
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px -2px rgba(0, 0, 0, 0.5);
+  color: #000;
+  font-weight: var(--font-lbtn);
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.main-text h1 {
+  margin: 16px auto;
+  font-size: 1.5rem;
+  font-weight: var(--font-lbtn);
+  line-height: 2.5rem;
+  color: var(--dark-cyan);
+}
+.main-text p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.main-text a {
+  width: 250px;
+  height: 45px;
+  background-color: var(--prymary-pink);
+  padding: 10px 25px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  text-align: center;
+  border-radius: 22px;
+  color: #fff;
+  font-weight: var(--font-lbtn);
+}
+.main-img img {
+  width: 17.421875rem;
+  height: 12.796875rem;
+}
